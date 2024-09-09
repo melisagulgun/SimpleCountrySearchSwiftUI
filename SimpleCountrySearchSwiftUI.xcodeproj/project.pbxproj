@@ -3,8 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		B95A719E2C835AA30047FF86 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B95A719D2C835AA30047FF86 /* Kingfisher */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B9B8058C2C8323BE00B44971 /* PBXContainerItemProxy */ = {
@@ -24,15 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B9B8057B2C8323BC00B44971 /* SimpleCitySearchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCitySearchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B8058B2C8323BE00B44971 /* SimpleCitySearchSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCitySearchSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B805952C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCitySearchSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B8057B2C8323BC00B44971 /* SimpleCountrySearchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCountrySearchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B8058B2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCountrySearchSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B805952C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCountrySearchSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B9B8057D2C8323BC00B44971 /* SimpleCitySearchSwiftUI */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleCitySearchSwiftUI; sourceTree = "<group>"; };
-		B9B8058E2C8323BE00B44971 /* SimpleCitySearchSwiftUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleCitySearchSwiftUITests; sourceTree = "<group>"; };
-		B9B805982C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleCitySearchSwiftUIUITests; sourceTree = "<group>"; };
+		B9B8057D2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleCountrySearchSwiftUI; sourceTree = "<group>"; };
+		B9B8058E2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleCountrySearchSwiftUITests; sourceTree = "<group>"; };
+		B9B805982C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SimpleCountrySearchSwiftUIUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95A719E2C835AA30047FF86 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +68,9 @@
 		B9B805722C8323BC00B44971 = {
 			isa = PBXGroup;
 			children = (
-				B9B8057D2C8323BC00B44971 /* SimpleCitySearchSwiftUI */,
-				B9B8058E2C8323BE00B44971 /* SimpleCitySearchSwiftUITests */,
-				B9B805982C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests */,
+				B9B8057D2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */,
+				B9B8058E2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests */,
+				B9B805982C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests */,
 				B9B8057C2C8323BC00B44971 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,9 +78,9 @@
 		B9B8057C2C8323BC00B44971 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9B8057B2C8323BC00B44971 /* SimpleCitySearchSwiftUI.app */,
-				B9B8058B2C8323BE00B44971 /* SimpleCitySearchSwiftUITests.xctest */,
-				B9B805952C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests.xctest */,
+				B9B8057B2C8323BC00B44971 /* SimpleCountrySearchSwiftUI.app */,
+				B9B8058B2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests.xctest */,
+				B9B805952C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9B8057A2C8323BC00B44971 /* SimpleCitySearchSwiftUI */ = {
+		B9B8057A2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B8059F2C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCitySearchSwiftUI" */;
+			buildConfigurationList = B9B8059F2C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCountrySearchSwiftUI" */;
 			buildPhases = (
 				B9B805772C8323BC00B44971 /* Sources */,
 				B9B805782C8323BC00B44971 /* Frameworks */,
@@ -96,18 +101,19 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B9B8057D2C8323BC00B44971 /* SimpleCitySearchSwiftUI */,
+				B9B8057D2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */,
 			);
-			name = SimpleCitySearchSwiftUI;
+			name = SimpleCountrySearchSwiftUI;
 			packageProductDependencies = (
+				B95A719D2C835AA30047FF86 /* Kingfisher */,
 			);
 			productName = SimpleCitySearchSwiftUI;
-			productReference = B9B8057B2C8323BC00B44971 /* SimpleCitySearchSwiftUI.app */;
+			productReference = B9B8057B2C8323BC00B44971 /* SimpleCountrySearchSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9B8058A2C8323BE00B44971 /* SimpleCitySearchSwiftUITests */ = {
+		B9B8058A2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B805A22C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCitySearchSwiftUITests" */;
+			buildConfigurationList = B9B805A22C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCountrySearchSwiftUITests" */;
 			buildPhases = (
 				B9B805872C8323BE00B44971 /* Sources */,
 				B9B805882C8323BE00B44971 /* Frameworks */,
@@ -119,18 +125,18 @@
 				B9B8058D2C8323BE00B44971 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B9B8058E2C8323BE00B44971 /* SimpleCitySearchSwiftUITests */,
+				B9B8058E2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests */,
 			);
-			name = SimpleCitySearchSwiftUITests;
+			name = SimpleCountrySearchSwiftUITests;
 			packageProductDependencies = (
 			);
 			productName = SimpleCitySearchSwiftUITests;
-			productReference = B9B8058B2C8323BE00B44971 /* SimpleCitySearchSwiftUITests.xctest */;
+			productReference = B9B8058B2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9B805942C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests */ = {
+		B9B805942C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B805A52C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCitySearchSwiftUIUITests" */;
+			buildConfigurationList = B9B805A52C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCountrySearchSwiftUIUITests" */;
 			buildPhases = (
 				B9B805912C8323BE00B44971 /* Sources */,
 				B9B805922C8323BE00B44971 /* Frameworks */,
@@ -142,13 +148,13 @@
 				B9B805972C8323BE00B44971 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B9B805982C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests */,
+				B9B805982C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests */,
 			);
-			name = SimpleCitySearchSwiftUIUITests;
+			name = SimpleCountrySearchSwiftUIUITests;
 			packageProductDependencies = (
 			);
 			productName = SimpleCitySearchSwiftUIUITests;
-			productReference = B9B805952C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests.xctest */;
+			productReference = B9B805952C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9B805762C8323BC00B44971 /* Build configuration list for PBXProject "SimpleCitySearchSwiftUI" */;
+			buildConfigurationList = B9B805762C8323BC00B44971 /* Build configuration list for PBXProject "SimpleCountrySearchSwiftUI" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,13 +189,16 @@
 				Base,
 			);
 			mainGroup = B9B805722C8323BC00B44971;
+			packageReferences = (
+				B95A719C2C835AA30047FF86 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B9B8057C2C8323BC00B44971 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9B8057A2C8323BC00B44971 /* SimpleCitySearchSwiftUI */,
-				B9B8058A2C8323BE00B44971 /* SimpleCitySearchSwiftUITests */,
-				B9B805942C8323BE00B44971 /* SimpleCitySearchSwiftUIUITests */,
+				B9B8057A2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */,
+				B9B8058A2C8323BE00B44971 /* SimpleCountrySearchSwiftUITests */,
+				B9B805942C8323BE00B44971 /* SimpleCountrySearchSwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,12 +254,12 @@
 /* Begin PBXTargetDependency section */
 		B9B8058D2C8323BE00B44971 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9B8057A2C8323BC00B44971 /* SimpleCitySearchSwiftUI */;
+			target = B9B8057A2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */;
 			targetProxy = B9B8058C2C8323BE00B44971 /* PBXContainerItemProxy */;
 		};
 		B9B805972C8323BE00B44971 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9B8057A2C8323BC00B44971 /* SimpleCitySearchSwiftUI */;
+			target = B9B8057A2C8323BC00B44971 /* SimpleCountrySearchSwiftUI */;
 			targetProxy = B9B805962C8323BE00B44971 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -308,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -365,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -382,7 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleCitySearchSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleCountrySearchSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -410,7 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleCitySearchSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleCountrySearchSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -502,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9B805762C8323BC00B44971 /* Build configuration list for PBXProject "SimpleCitySearchSwiftUI" */ = {
+		B9B805762C8323BC00B44971 /* Build configuration list for PBXProject "SimpleCountrySearchSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B8059D2C8323BE00B44971 /* Debug */,
@@ -511,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B8059F2C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCitySearchSwiftUI" */ = {
+		B9B8059F2C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCountrySearchSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B805A02C8323BE00B44971 /* Debug */,
@@ -520,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B805A22C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCitySearchSwiftUITests" */ = {
+		B9B805A22C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCountrySearchSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B805A32C8323BE00B44971 /* Debug */,
@@ -529,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B805A52C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCitySearchSwiftUIUITests" */ = {
+		B9B805A52C8323BE00B44971 /* Build configuration list for PBXNativeTarget "SimpleCountrySearchSwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9B805A62C8323BE00B44971 /* Debug */,
@@ -539,6 +548,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B95A719C2C835AA30047FF86 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B95A719D2C835AA30047FF86 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B95A719C2C835AA30047FF86 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9B805732C8323BC00B44971 /* Project object */;
 }
